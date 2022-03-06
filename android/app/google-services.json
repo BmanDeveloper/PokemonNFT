@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "258209759881",
+    "project_id": "pokemon-nft",
+    "storage_bucket": "pokemon-nft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258209759881:android:26864af92739fa684dbc58",
+        "android_client_info": {
+          "package_name": "com.projetofinal.pokemon_nft.pokemon_nft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258209759881-d4baqs9ej4iteob8voqons7j3vtq7o23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projetofinal.pokemon_nft.pokemon_nft",
+            "certificate_hash": "56639d7b4e7ac4124271c92a7ff5bf53b8c22612"
+          }
+        },
+        {
+          "client_id": "258209759881-r2721mtg6djv2fb63j2hjlc57e0f3ph6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk6vKORBNESTfqTBs1NCJXDuKmzvpGzU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258209759881-r2721mtg6djv2fb63j2hjlc57e0f3ph6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
