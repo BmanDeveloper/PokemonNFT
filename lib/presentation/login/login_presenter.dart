@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 import 'package:pokemon_nft/domain/usecases/login/login_with_google.dart';
 import 'package:pokemon_nft/ui/home/home_screen.dart';
+import 'package:pokemon_nft/ui/login/login_user.dart';
 
 class LoginPresenter extends GetxController{
   LoginPresenter({
@@ -17,7 +18,8 @@ class LoginPresenter extends GetxController{
     if (user != null) {
       Get.offAndToNamed(HomeScreen.id);
     } else {
-      showLoginFailed.value = true;
+      Get.offAndToNamed(LoginUser.id);
+      //showLoginFailed.value = true;
     }
   }
 }

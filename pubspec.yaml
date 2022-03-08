@@ -38,6 +38,7 @@ dependencies:
   http: ^0.13.4
   firebase_auth: ^3.3.7
   google_sign_in: ^5.2.3
+  lottie: ^1.2.2
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +68,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/login_logo.png
+    - assets/images/splashback.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
